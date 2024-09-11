@@ -1,0 +1,63 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ejs:20161128':
+    - bootstrap-treeview > ejs:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:ejs:20161128'
+        path: bootstrap-treeview > ejs
+  'npm:hoek:20180212':
+    - bootstrap-treeview > phantomjs > request > hawk > hoek:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:hoek:20180212'
+        path: bootstrap-treeview > phantomjs > request > hawk > hoek
+    - bootstrap-treeview > phantomjs > request > hawk > boom > hoek:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:hoek:20180212'
+        path: bootstrap-treeview > phantomjs > request > hawk > boom > hoek
+    - bootstrap-treeview > phantomjs > request > hawk > sntp > hoek:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:hoek:20180212'
+        path: bootstrap-treeview > phantomjs > request > hawk > sntp > hoek
+    - bootstrap-treeview > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          bootstrap-treeview > phantomjs > request > hawk > cryptiles > boom >
+          hoek
+  'npm:mime:20170907':
+    - bootstrap-treeview > express > send > mime:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:mime:20170907'
+        path: bootstrap-treeview > express > send > mime
+    - bootstrap-treeview > express > connect > send > mime:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:mime:20170907'
+        path: bootstrap-treeview > express > connect > send > mime
+  'npm:negotiator:20160616':
+    - bootstrap-treeview > express > connect > negotiator:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:negotiator:20160616'
+        path: bootstrap-treeview > express > connect > negotiator
+  'npm:qs:20140806-1':
+    - bootstrap-treeview > express > connect > qs:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:qs:20140806-1'
+        path: bootstrap-treeview > express > connect > qs
+  'npm:request:20160119':
+    - bootstrap-treeview > phantomjs > request:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:request:20160119'
+        path: bootstrap-treeview > phantomjs > request
+  'npm:tough-cookie:20170905':
+    - bootstrap-treeview > phantomjs > request > tough-cookie:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:tough-cookie:20170905'
+        path: bootstrap-treeview > phantomjs > request > tough-cookie
+  'npm:tunnel-agent:20170305':
+    - bootstrap-treeview > phantomjs > request > tunnel-agent:
+        patched: '2024-09-11T00:23:40.506Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: bootstrap-treeview > phantomjs > request > tunnel-agent

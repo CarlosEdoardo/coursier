@@ -20,9 +20,13 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "requirejs": "2.3.6",
-    "sax": "1.2.4"
+    "sax": "1.2.4",
+    "@snyk/protect": "latest"
   },
   "scripts": {
-    "browserify": "browserify"
-  }
+    "browserify": "browserify",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
